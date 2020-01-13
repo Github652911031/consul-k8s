@@ -5,7 +5,8 @@ metadata:
   labels:
     name: consul
 spec:
-  clusterIP: None
+  type: ClusterIP
+  #clusterIP: None
   ports:
     - name: defult
       port: 80 #8500
